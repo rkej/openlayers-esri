@@ -1,0 +1,19 @@
+{
+  "name": "ol",
+  "version": "5.3.0",
+  "description": "none",
+  "main": "index.js",
+  "dependencies": {
+    "ol": "^5.3.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "author": "rkej",
+  "license": "ISC"
+}
